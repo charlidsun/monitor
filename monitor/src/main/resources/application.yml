@@ -1,0 +1,8 @@
+server:
+  port: 9999
+logging:  
+  level:    
+    com.sun.monitor.net.NetUtil: INFO
+  pattern:
+    console: "%d - %msg%n"
+  file: server.log

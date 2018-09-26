@@ -1,0 +1,184 @@
+2018-09-26 16:37:24.624  INFO 11840 --- [main] com.sun.monitor.MonitorApplication       : Starting MonitorApplication on SunJingGe with PID 11840 (D:\taozhaocai\sun\project\monitor\target\classes started by Administrator in D:\taozhaocai\sun\project\monitor)
+2018-09-26 16:37:24.627  INFO 11840 --- [main] com.sun.monitor.MonitorApplication       : No active profile set, falling back to default profiles: default
+2018-09-26 16:37:24.673  INFO 11840 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7ec7ffd3: startup date [Wed Sep 26 16:37:24 CST 2018]; root of context hierarchy
+2018-09-26 16:37:25.916  INFO 11840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2018-09-26 16:37:25.947  INFO 11840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-26 16:37:25.947  INFO 11840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-26 16:37:25.973  INFO 11840 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\Ruby24-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_91\bin;D:\mysql\bin;D:\TortoiseSVN\bin;C:\Go\bin;D:\Git\cmd;D:\cmder;D:\Anaconda3;D:\Anaconda3\Scripts;D:\nodejs\;D:\apache-maven-3.5.4\bin;D:\Microsoft VS Code\bin;D:\PuTTY\;C:\Users\Administrator.SKY-20180410JVW\go\bin;D:\Docker Toolbox;C:\Users\Administrator.SKY-20180410JVW\AppData\Roaming\npm;D:\Fiddler;C:\Windows\system32;;.]
+2018-09-26 16:37:26.098  INFO 11840 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-26 16:37:26.098  INFO 11840 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1425 ms
+2018-09-26 16:37:26.166  INFO 11840 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-09-26 16:37:26.171  INFO 11840 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-26 16:37:26.171  INFO 11840 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-26 16:37:26.173  INFO 11840 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-26 16:37:26.173  INFO 11840 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-26 16:37:26.281  INFO 11840 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2018-09-26 16:37:26.382  INFO 11840 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 16:37:26.548  INFO 11840 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7ec7ffd3: startup date [Wed Sep 26 16:37:24 CST 2018]; root of context hierarchy
+2018-09-26 16:37:26.605  INFO 11840 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-26 16:37:26.606  INFO 11840 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-26 16:37:26.628  INFO 11840 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 16:37:26.628  INFO 11840 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 16:37:26.736  INFO 11840 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2018-09-26 16:37:26.746  INFO 11840 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2018-09-26 16:37:26.746  INFO 11840 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2018-09-26 16:37:26.747  INFO 11840 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2018-09-26 16:37:26.747  INFO 11840 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-09-26 16:37:26.748  INFO 11840 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2018-09-26 16:37:26.748  INFO 11840 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2018-09-26 16:37:26.748  INFO 11840 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@3b0ca5e1
+2018-09-26 16:37:26.780  INFO 11840 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-26 16:37:26.786  INFO 11840 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-09-26 16:37:26.786  INFO 11840 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2018-09-26 16:37:26.786  INFO 11840 --- [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2018-09-26 16:37:27.131  INFO 11840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2018-09-26 16:37:27.133  INFO 11840 --- [main] com.sun.monitor.MonitorApplication       : Started MonitorApplication in 2.812 seconds (JVM running for 3.099)
+2018-09-26 16:37:30.133  INFO 11840 --- [taskScheduler-2] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:30.133
+2018-09-26 16:37:30.231 ERROR 11840 --- [taskScheduler-2] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:30.232 ERROR 11840 --- [taskScheduler-2] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:31.001  INFO 11840 --- [taskScheduler-3] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:31.001
+2018-09-26 16:37:31.003 ERROR 11840 --- [taskScheduler-3] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:31.003 ERROR 11840 --- [taskScheduler-3] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:32.001  INFO 11840 --- [taskScheduler-1] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:32.001
+2018-09-26 16:37:32.001 ERROR 11840 --- [taskScheduler-1] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:32.001 ERROR 11840 --- [taskScheduler-1] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:33.001  INFO 11840 --- [taskScheduler-5] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:33.001
+2018-09-26 16:37:33.001 ERROR 11840 --- [taskScheduler-5] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:33.001 ERROR 11840 --- [taskScheduler-5] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:34.001  INFO 11840 --- [taskScheduler-7] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:34.001
+2018-09-26 16:37:34.001 ERROR 11840 --- [taskScheduler-7] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:34.001 ERROR 11840 --- [taskScheduler-7] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:35.001  INFO 11840 --- [taskScheduler-6] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:35.001
+2018-09-26 16:37:35.001 ERROR 11840 --- [taskScheduler-6] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:35.002 ERROR 11840 --- [taskScheduler-6] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:36.001  INFO 11840 --- [taskScheduler-2] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:36.001
+2018-09-26 16:37:36.002 ERROR 11840 --- [taskScheduler-2] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:36.002 ERROR 11840 --- [taskScheduler-2] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:37.001  INFO 11840 --- [taskScheduler-8] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:37.001
+2018-09-26 16:37:37.001 ERROR 11840 --- [taskScheduler-8] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:37.001 ERROR 11840 --- [taskScheduler-8] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:38.001  INFO 11840 --- [taskScheduler-9] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:38.001
+2018-09-26 16:37:38.001 ERROR 11840 --- [taskScheduler-9] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:38.001 ERROR 11840 --- [taskScheduler-9] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:39.001  INFO 11840 --- [taskScheduler-4] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:39.001
+2018-09-26 16:37:39.002 ERROR 11840 --- [taskScheduler-4] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:39.002 ERROR 11840 --- [taskScheduler-4] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:40.001  INFO 11840 --- [taskScheduler-3] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:40.001
+2018-09-26 16:37:40.001 ERROR 11840 --- [taskScheduler-3] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:40.001 ERROR 11840 --- [taskScheduler-3] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:41.001  INFO 11840 --- [taskScheduler-10] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:41.001
+2018-09-26 16:37:41.001 ERROR 11840 --- [taskScheduler-10] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:41.001 ERROR 11840 --- [taskScheduler-10] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:42.001  INFO 11840 --- [taskScheduler-5] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:42.001
+2018-09-26 16:37:42.001 ERROR 11840 --- [taskScheduler-5] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:42.002 ERROR 11840 --- [taskScheduler-5] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:43.001  INFO 11840 --- [taskScheduler-7] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:43.001
+2018-09-26 16:37:43.001 ERROR 11840 --- [taskScheduler-7] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:43.001 ERROR 11840 --- [taskScheduler-7] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:44.001  INFO 11840 --- [taskScheduler-6] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:44.001
+2018-09-26 16:37:44.001 ERROR 11840 --- [taskScheduler-6] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:44.001 ERROR 11840 --- [taskScheduler-6] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:45.002  INFO 11840 --- [taskScheduler-2] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:45.002
+2018-09-26 16:37:45.002 ERROR 11840 --- [taskScheduler-2] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:45.002 ERROR 11840 --- [taskScheduler-2] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:46.001  INFO 11840 --- [taskScheduler-1] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:46.001
+2018-09-26 16:37:46.001 ERROR 11840 --- [taskScheduler-1] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:46.001 ERROR 11840 --- [taskScheduler-1] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:47.001  INFO 11840 --- [taskScheduler-9] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:47.001
+2018-09-26 16:37:47.001 ERROR 11840 --- [taskScheduler-9] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:47.001 ERROR 11840 --- [taskScheduler-9] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:48.001  INFO 11840 --- [taskScheduler-4] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:48.001
+2018-09-26 16:37:48.001 ERROR 11840 --- [taskScheduler-4] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:48.002 ERROR 11840 --- [taskScheduler-4] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:49.000  INFO 11840 --- [taskScheduler-3] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:49
+2018-09-26 16:37:49.000 ERROR 11840 --- [taskScheduler-3] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:49.001 ERROR 11840 --- [taskScheduler-3] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:50.001  INFO 11840 --- [taskScheduler-6] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:50.001
+2018-09-26 16:37:50.001 ERROR 11840 --- [taskScheduler-6] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:50.001 ERROR 11840 --- [taskScheduler-6] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:51.001  INFO 11840 --- [taskScheduler-5] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:51.001
+2018-09-26 16:37:51.001 ERROR 11840 --- [taskScheduler-5] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:51.001 ERROR 11840 --- [taskScheduler-5] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:52.001  INFO 11840 --- [taskScheduler-8] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:52.001
+2018-09-26 16:37:52.001 ERROR 11840 --- [taskScheduler-8] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:52.001 ERROR 11840 --- [taskScheduler-8] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:53.001  INFO 11840 --- [taskScheduler-7] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:37:53.001
+2018-09-26 16:37:53.001 ERROR 11840 --- [taskScheduler-7] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:37:53.001 ERROR 11840 --- [taskScheduler-7] com.sun.monitor.net.NetUtil              : 链接ok
+2018-09-26 16:41:07.516  INFO 13744 --- [main] com.sun.monitor.MonitorApplication       : Starting MonitorApplication on SunJingGe with PID 13744 (D:\taozhaocai\sun\project\monitor\target\classes started by Administrator in D:\taozhaocai\sun\project\monitor)
+2018-09-26 16:41:07.527  INFO 13744 --- [main] com.sun.monitor.MonitorApplication       : No active profile set, falling back to default profiles: default
+2018-09-26 16:41:07.577  INFO 13744 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4a94ee4: startup date [Wed Sep 26 16:41:07 CST 2018]; root of context hierarchy
+2018-09-26 16:41:09.200  INFO 13744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2018-09-26 16:41:09.232  INFO 13744 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-26 16:41:09.233  INFO 13744 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-26 16:41:09.242  INFO 13744 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\Ruby24-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_91\bin;D:\mysql\bin;D:\TortoiseSVN\bin;C:\Go\bin;D:\Git\cmd;D:\cmder;D:\Anaconda3;D:\Anaconda3\Scripts;D:\nodejs\;D:\apache-maven-3.5.4\bin;D:\Microsoft VS Code\bin;D:\PuTTY\;C:\Users\Administrator.SKY-20180410JVW\go\bin;D:\Docker Toolbox;C:\Users\Administrator.SKY-20180410JVW\AppData\Roaming\npm;D:\Fiddler;C:\Windows\system32;;.]
+2018-09-26 16:41:09.371  INFO 13744 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-26 16:41:09.371  INFO 13744 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1795 ms
+2018-09-26 16:41:09.447  INFO 13744 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-09-26 16:41:09.455  INFO 13744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-26 16:41:09.456  INFO 13744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-26 16:41:09.456  INFO 13744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-26 16:41:09.456  INFO 13744 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-26 16:41:09.539  INFO 13744 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2018-09-26 16:41:09.637  INFO 13744 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 16:41:09.795  INFO 13744 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4a94ee4: startup date [Wed Sep 26 16:41:07 CST 2018]; root of context hierarchy
+2018-09-26 16:41:09.858  INFO 13744 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-26 16:41:09.859  INFO 13744 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-26 16:41:09.878  INFO 13744 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 16:41:09.879  INFO 13744 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 16:41:09.984  INFO 13744 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-26 16:41:10.101  INFO 13744 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2018-09-26 16:41:10.105  INFO 13744 --- [main] com.sun.monitor.MonitorApplication       : Started MonitorApplication in 3.039 seconds (JVM running for 3.661)
+2018-09-26 16:41:13.025  INFO 13744 --- [taskScheduler-1] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:41:13.025
+2018-09-26 16:41:14.001  INFO 13744 --- [taskScheduler-3] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:41:14.001
+2018-09-26 16:41:15.001  INFO 13744 --- [taskScheduler-2] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:41:15.001
+2018-09-26 16:41:16.001  INFO 13744 --- [taskScheduler-5] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:41:16.001
+2018-09-26 16:41:17.001  INFO 13744 --- [taskScheduler-7] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:41:17.001
+2018-09-26 16:41:18.001  INFO 13744 --- [taskScheduler-8] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:41:18.001
+2018-09-26 16:41:19.001  INFO 13744 --- [taskScheduler-1] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:41:19.001
+2018-09-26 16:41:20.001  INFO 13744 --- [taskScheduler-6] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:41:20.001
+2018-09-26 16:41:21.001  INFO 13744 --- [taskScheduler-9] com.sun.monitor.task.SpringTaskDemo      : scheduled1 每1秒执行一次：2018-09-26T16:41:21.001
+2018-09-26 16:43:06.418  INFO 9808 --- [main] com.sun.monitor.MonitorApplication       : Starting MonitorApplication on SunJingGe with PID 9808 (D:\taozhaocai\sun\project\monitor\target\classes started by Administrator in D:\taozhaocai\sun\project\monitor)
+2018-09-26 16:43:06.422  INFO 9808 --- [main] com.sun.monitor.MonitorApplication       : No active profile set, falling back to default profiles: default
+2018-09-26 16:43:06.490  INFO 9808 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b9a4292: startup date [Wed Sep 26 16:43:06 CST 2018]; root of context hierarchy
+2018-09-26 16:43:07.664  INFO 9808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2018-09-26 16:43:07.687  INFO 9808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-26 16:43:07.687  INFO 9808 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-09-26 16:43:07.695  INFO 9808 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\Ruby24-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_91\bin;D:\mysql\bin;D:\TortoiseSVN\bin;C:\Go\bin;D:\Git\cmd;D:\cmder;D:\Anaconda3;D:\Anaconda3\Scripts;D:\nodejs\;D:\apache-maven-3.5.4\bin;D:\Microsoft VS Code\bin;D:\PuTTY\;C:\Users\Administrator.SKY-20180410JVW\go\bin;D:\Docker Toolbox;C:\Users\Administrator.SKY-20180410JVW\AppData\Roaming\npm;D:\Fiddler;C:\Windows\system32;;.]
+2018-09-26 16:43:07.770  INFO 9808 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-26 16:43:07.771  INFO 9808 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1281 ms
+2018-09-26 16:43:07.816  INFO 9808 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-09-26 16:43:07.820  INFO 9808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-26 16:43:07.820  INFO 9808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-26 16:43:07.820  INFO 9808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-26 16:43:07.820  INFO 9808 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-26 16:43:07.896  INFO 9808 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2018-09-26 16:43:08.002  INFO 9808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 16:43:08.209  INFO 9808 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b9a4292: startup date [Wed Sep 26 16:43:06 CST 2018]; root of context hierarchy
+2018-09-26 16:43:08.262  INFO 9808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-26 16:43:08.263  INFO 9808 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-26 16:43:08.283  INFO 9808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 16:43:08.283  INFO 9808 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 16:43:08.386  INFO 9808 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-26 16:43:08.556  INFO 9808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2018-09-26 16:43:08.558  INFO 9808 --- [main] com.sun.monitor.MonitorApplication       : Started MonitorApplication in 2.558 seconds (JVM running for 2.879)
+2018-09-26 17:18:20.746  INFO 12176 --- [main] com.sun.monitor.MonitorApplicationTests  : Starting MonitorApplicationTests on SunJingGe with PID 12176 (started by Administrator in D:\taozhaocai\sun\project\monitor)
+2018-09-26 17:18:20.758  INFO 12176 --- [main] com.sun.monitor.MonitorApplicationTests  : No active profile set, falling back to default profiles: default
+2018-09-26 17:18:20.840  INFO 12176 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@27912e3: startup date [Wed Sep 26 17:18:20 CST 2018]; root of context hierarchy
+2018-09-26 17:18:25.368  INFO 12176 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService  'taskScheduler'
+2018-09-26 17:18:25.654  INFO 12176 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 17:18:25.834  INFO 12176 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@27912e3: startup date [Wed Sep 26 17:18:20 CST 2018]; root of context hierarchy
+2018-09-26 17:18:25.906  INFO 12176 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-26 17:18:25.911  INFO 12176 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-26 17:18:25.940  INFO 12176 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 17:18:25.940  INFO 12176 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 17:18:26.636  INFO 12176 --- [main] com.sun.monitor.MonitorApplicationTests  : Started MonitorApplicationTests in 5.759 seconds (JVM running for 6.998)
+2018-09-26 17:18:36.049  INFO 12176 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@27912e3: startup date [Wed Sep 26 17:18:20 CST 2018]; root of context hierarchy
+2018-09-26 17:18:36.060  INFO 12176 --- [Thread-2] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
